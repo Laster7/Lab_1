@@ -5,14 +5,14 @@ const arr = [
   3, 'abcd', 100, true, undefined, null, 11n, 'text', 
 ];
 const types = {
-    Number: 0,
-    String:0,
-    Boolean:0,
-    undefined:0,
-    Object:0,
-    function:0,
-    BigInt:0,
-    Symbol:0,
+  number: 0,
+  string: 0,
+  boolean: 0,
+  undefined: 0,
+  object: 0,
+  function: 0,
+  bigint: 0,
+  symbol: 0,
 };
 
 for (const item of arr) {
